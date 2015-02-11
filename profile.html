@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <title>Cookit</title>
+        <title>Cookit - CreateProfile</title>
         <link rel="stylesheet" href="style.css">
     </head>
 
@@ -19,38 +19,39 @@
         <form method="POST" action="/profile/edit">
 
           <h2 class="title-profile"><span class="yellow">Your</span> profile</h2>
-          <p> <!-- <label for="firsttname">First name</label> -->
-          <input type="text" name="firstname" class="bulle" placeholder="First Name"></p>
 
-          <p> <!-- <label for="lastname">Last Name name</label> -->
-          <input type="text" name="lastname" class="bulle" placeholder="Last Name"></p>
+          <input type="text" name="firstname" class="bulle" placeholder="First Name">
+            <label for="firsttname" class="hidden">First name</label>
           
-          <p> <!-- <label for="email">Email</label> -->
-          <input type="email" name="email" class="bulle" placeholder="email"></p>
+          <input type="text" name="lastname" class="bulle" placeholder="Last Name">
+            <label for="lastname" class="hidden">Last Name name</label>
+          
+          <input type="email" name="email" class="bulle" placeholder="email">
+            <label for="email" class="hidden">Email</label>
 
-          <p> <!-- <label for="new-password">Password</label> -->
-          <input type="password" name="new-password" class="bulle" placeholder="New password"></p>
+          <input type="password" name="new-password" class="bulle" placeholder="New password">
+            <label for="new-password" class="hidden">Password</label>
 
-          <p> <!-- <label for="confirm-password">Password</label> -->
-          <input type="password" name="confirm-password" class="bulle" placeholder="Confirm new password"></p>
+          <input type="password" name="confirm-password" class="bulle" placeholder="Confirm new password">
+            <label for="confirm-password" class="hidden">Password</label>
 
-          <p class="center">
+          <div class="check-choices">
             <input type="radio" name="gender" value="Male" class="item-1">
               <label for="gender">Male</label>
             <input type="radio" name="gender" value="Female" class="item-2">
               <label for="gender">Female</label>
             <input type="radio" name="gender" value="Other" class="item-3">
-              <label for="gender"><span class="Other-2">Other</span></label>
-          </p>
+              <label for="gender">Other</label>
+          </div>
 
-          <p class="center">
-            <input type="radio" name="orientation" value="Non-Vegetarian" class="item-1">
+          <div class="check-choices">
+            <input type="radio" name="orientation" value="Non-Vegetarian" class="item-4">
               <label for="orientation">Non-Vegetarian</label>
-            <input type="radio" name="orientation" value="Vegetarian" class="item-2">
+            <input type="radio" name="orientation" value="Vegetarian" class="item-5">
               <label for="orientation">Vegetarian</label>
-            <input type="radio" name="orientation" value="Vegan" class="item-3">
-              <label for="orientation"><span class="Other-2">Vegan</span></label>
-          </p>
+            <input type="radio" name="orientation" value="Vegan" class="item-6">
+              <label for="orientation">Vegan</label>
+          </div>
 
           <button type="submit">Update</button>
 

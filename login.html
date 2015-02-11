@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <title>Cookit</title>
+        <title>Cookit - LogIn</title>
         <link rel="stylesheet" href="style.css">
     </head>
 
@@ -10,17 +10,18 @@
       
 
       <div class="signin-card">
-        <h1 class="float-logo">C<span class="yellow">oo</span>kit</h1>
+        <div class="logo-titre">
+          <h1 class="float-logo">C<span class="yellow">oo</span>kit</h1>
+          <img src="./images/Logo.png" class="logo">
+        </div>
+
         <form method="POST" action="login">
 
-          <img src="./images/Logo.png" class="logo">
-
-          <p> <!-- <label for="username">User name</label> -->
-          <input type="text" name="username" class="bulle" placeholder="User name"></p>
+          <input type="text" name="username" class="bulle" placeholder="User name">
+            <label for="username" class="hidden">User name</label>
           
-
-          <p> <!-- <label for="password">Password</label> -->
-          <input type="password" name="password" class="bulle" placeholder="Password"></p>
+          <input type="password" name="password" class="bulle" placeholder="Password">
+            <label for="password" class="hidden">Password</label>
 
           <button type="submit">Login</button>
 

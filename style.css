@@ -16,6 +16,7 @@ div {
 
 .title-signup{
 	padding: 0px 10%;
+	margin-top: 10px;
 }
 
 .title-profile{
@@ -47,28 +48,35 @@ div {
 	background-color: rgba(255,255,255,0.70);
 }
 
-.center {
-	width: 400px;
-	margin: 20px 0px;
-	font-size: 0.5em;
+.hidden{
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
 }
-
 
 label {
-    width: 95px !important;
+  font-size: 0.6em;
 }
 
-.
-
-.item-1 {
-	margin-right: 5px;
+.check-choices {
+	padding: 10px 0px;	
 }
+
 .item-2 {
-	margin-right: 5px;
-	margin-left: 5px;
+	margin-left: 24%;
 }
 .item-3 {
-	margin-left: 5px;
+	margin-left: 16.25%;
+}
+
+.item-5 {
+	margin-left: 4%;
+}
+.item-6 {
+	margin-left: 10%;
 }
 
 h1 {
@@ -114,7 +122,9 @@ a:hover{
 	text-align:center;
 	font-family:inherit;
 	letter-spacing: inherit;
+	margin: 10px 0px;
 }
+
 
 .lwidth {
 	width: 300px;
@@ -134,14 +144,6 @@ a:hover{
 }
 
 
-
-/*form {
-	width: 20 px;
-	margin: 50px auto; 
-	padding: 0 15%;
-}*/
-
-
 button{
 	font-family: inherit; 
 	letter-spacing: inherit;
@@ -149,11 +151,10 @@ button{
 	width:302px;
 	height:40px;
     border:1px solid grey;
-    padding:0px;
+    margin-top: 10px;
 }
 
 
-label {
-  display: inline-block;
-  width: 100px;
-}
+
+
+

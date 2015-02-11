@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <title>Cookit</title>
+        <title>Cookit - SignUp</title>
         <link rel="stylesheet" href="style.css">
     </head>
 
@@ -19,23 +19,24 @@
         <form method="POST" action="signup">
 
           <h2 class="title-signup"><span class="yellow">Create</span> an account</h2>
-          <p> <!-- <label for="firsttname">First name</label> -->
-          <input type="text" name="firstname" class="bulle" placeholder="First Name"></p>
 
-          <p> <!-- <label for="lastname">Last Name name</label> -->
-          <input type="text" name="lastname" class="bulle" placeholder="Last Name"></p>
+          <input type="text" name="firstname" class="bulle" placeholder="First Name">
+            <label for="firsttname" class="hidden">First name</label>
 
-          <p> <!-- <label for="username">User name</label> -->
-          <input type="text" name="username" class="bulle" placeholder="Username"></p>
+          <input type="text" name="lastname" class="bulle" placeholder="Last Name">
+            <label for="lastname" class="hidden">Last Name name</label>
+
+          <input type="text" name="username" class="bulle" placeholder="Username">
+            <label for="username" class="hidden">User name</label>          
+
+          <input type="email" name="email" class="bulle" placeholder="email">
+            <label for="email" class="hidden">Email</label>
+
+          <input type="password" name="password" class="bulle" placeholder="Password">
+            <label for="password" class="hidden">Password</label>
           
-          <p> <!-- <label for="email">Email</label> -->
-          <input type="email" name="email" class="bulle" placeholder="email"></p>
-
-          <p> <!-- <label for="password">Password</label> -->
-          <input type="password" name="password" class="bulle" placeholder="Password"></p>
-
-          <p> <!-- <label for="confirm-password">Password</label> -->
-          <input type="password" name="confirm-password" class="bulle" placeholder="Confirm password"></p>
+          <input type="password" name="confirm-password" class="bulle" placeholder="Confirm password">
+            <label for="confirm-password" class="hidden">Password</label>
 
           <button type="submit">Create</button>
 
