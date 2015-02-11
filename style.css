@@ -2,7 +2,8 @@ body {
 	font-family: Absara, sans-serif;
 	font-weight: 100;
 	letter-spacing: 1.3px;
-	background-image: url(./images/Background.png);
+	background-image: url(./images/canning.png);
+	background-size: 1500px;
 }
 
 div {
@@ -11,6 +12,14 @@ div {
 
 .logo-titre {
 	margin-bottom: 50px;
+}
+
+.title-signup{
+	padding: 0px 10%;
+}
+
+.title-profile{
+	padding: 0px 26%;
 }
 
 
@@ -30,6 +39,37 @@ div {
 	background-color: rgba(255,255,255,0.70);
 }
 
+.profile-card {
+	border:1px solid black;
+	width: 300px;
+	margin: 50px auto;
+	padding: 50px 75px;
+	background-color: rgba(255,255,255,0.70);
+}
+
+.center {
+	width: 400px;
+	margin: 20px 0px;
+	font-size: 0.5em;
+}
+
+
+label {
+    width: 95px !important;
+}
+
+.
+
+.item-1 {
+	margin-right: 5px;
+}
+.item-2 {
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.item-3 {
+	margin-left: 5px;
+}
 
 h1 {
 	width: 20 px;
@@ -48,12 +88,11 @@ h2 {
 	padding: 63px 85px 0px 0px;
 }
 
-.title{
-	padding: 0px 10%;
-}
 
 .yellow{
 	color:#fff87e;
+	text-shadow: 0 0 2px black;
+	letter-spacing: 1.75px;
 }
 
 a{
@@ -109,7 +148,7 @@ button{
 	background-color: #fff87e;
 	width:302px;
 	height:40px;
-    border:1px solid black;
+    border:1px solid grey;
     padding:0px;
 }
 

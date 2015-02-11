@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Cookit</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+      
+      
+
+      <div class="profile-card">
+
+        <div class="logo-titre">
+          <h1 class="float-logo">C<span class="yellow">oo</span>kit</h1>
+          <img src="./images/Logo.png" class="logo">
+        </div>
+
+        <form method="POST" action="/profile/edit">
+
+          <h2 class="title-profile"><span class="yellow">Your</span> profile</h2>
+          <p> <!-- <label for="firsttname">First name</label> -->
+          <input type="text" name="firstname" class="bulle" placeholder="First Name"></p>
+
+          <p> <!-- <label for="lastname">Last Name name</label> -->
+          <input type="text" name="lastname" class="bulle" placeholder="Last Name"></p>
+          
+          <p> <!-- <label for="email">Email</label> -->
+          <input type="email" name="email" class="bulle" placeholder="email"></p>
+
+          <p> <!-- <label for="new-password">Password</label> -->
+          <input type="password" name="new-password" class="bulle" placeholder="New password"></p>
+
+          <p> <!-- <label for="confirm-password">Password</label> -->
+          <input type="password" name="confirm-password" class="bulle" placeholder="Confirm new password"></p>
+
+          <p class="center">
+            <input type="radio" name="gender" value="Male" class="item-1">
+              <label for="gender">Male</label>
+            <input type="radio" name="gender" value="Female" class="item-2">
+              <label for="gender">Female</label>
+            <input type="radio" name="gender" value="Other" class="item-3">
+              <label for="gender"><span class="Other-2">Other</span></label>
+          </p>
+
+          <p class="center">
+            <input type="radio" name="orientation" value="Non-Vegetarian" class="item-1">
+              <label for="orientation">Non-Vegetarian</label>
+            <input type="radio" name="orientation" value="Vegetarian" class="item-2">
+              <label for="orientation">Vegetarian</label>
+            <input type="radio" name="orientation" value="Vegan" class="item-3">
+              <label for="orientation"><span class="Other-2">Vegan</span></label>
+          </p>
+
+          <button type="submit">Update</button>
+
+        </form>
+      </div>
+    </body>
+</html>
